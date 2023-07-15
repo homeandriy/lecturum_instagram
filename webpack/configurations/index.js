@@ -1,2 +1,4 @@
-export * from './development';
-export * from './production';
+import {generateDevelopmentConfiguration} from './development';
+import {generateProductionConfiguration} from './production';
+
+module.exports = {generateDevelopmentConfiguration, generateProductionConfiguration}

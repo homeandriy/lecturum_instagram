@@ -1,7 +1,6 @@
 // Presets
 import {
-    generateDevelopmentConfiguration,
-    generateProductionConfiguration
+    generateDevelopmentConfiguration, generateProductionConfiguration
 } from './configurations';
 
 // Instruments
